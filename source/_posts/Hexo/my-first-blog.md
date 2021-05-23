@@ -18,6 +18,8 @@ keywords:
 ---
 
 ## hexo
+新建文章
+`hexo new post <md文件名>`
 
 每次我们添加或修改完本地文件后，使用：
 
