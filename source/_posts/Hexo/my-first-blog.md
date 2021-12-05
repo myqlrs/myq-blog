@@ -1,5 +1,5 @@
 ---
-title: my first blog
+title: Hexo使用说明
 date: 2021-01-08 06:13:29
 author: myqlrs
 img: /images/01.jpg
@@ -13,8 +13,7 @@ categories: Markdown
 tags:
   - hexo
 keywords:
-  - Hexo使用说明
-  - first
+  - Hexo
 ---
 
 ## hexo
