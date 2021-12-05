@@ -79,7 +79,7 @@ music:
   autoHide: true # hide automaticaly
   server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist #require song, playlist, album, search, artist
-  id: 919571252 #require	（503838841）歌曲ID /播放列表ID /专辑ID /搜索关键字 （登陆个人网易云音乐，打开歌单，查看浏览器地址，id后面就是歌单）
+  id: 503838841 #require	919571252（503838841）歌曲ID /播放列表ID /专辑ID /搜索关键字 （登陆个人网易云音乐，打开歌单，查看浏览器地址，id后面就是歌单）
   fixed: true # 开启吸底模式
   autoplay: false # 是否自动播放
   theme: "#42b983" #背景颜色
@@ -92,14 +92,30 @@ music:
 
 # Whether to display the videos.
 # 是否在首页显示视频.
+#video:
+#  enable: true
+#  showTitle: true
+#  title: 精彩视频
+#  url: https://v.qq.com/x/cover/ww18u675tfmhas6/a0034mayjb3.html # 必填
+#  pic:
+#  thumbnails:
+#  height: # 如：400
+#  autoplay: false # 是否自动播放
+#  theme: "#42b983"
+#  loop: false # 是否循环播放
+#  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
+#  volume: 0.7
+
+# Whether to display the videos.
+ # 是否在首页显示视频.
 video:
-  enable: false
+  enable: true
   showTitle: true
-  title: 精彩视频
-  url: https://v.qq.com/x/cover/ww18u675tfmhas6/a0034mayjb3.html # 必填
+  title: 推荐视频
+  url: //player.bilibili.com/player.html?aid=12649070&bvid=BV1jx411W75e&cid=20807512&page=1 # 必填
   pic:
   thumbnails:
-  height: # 如：400
+  height: 400 # 如：400
   autoplay: false # 是否自动播放
   theme: "#42b983"
   loop: false # 是否循环播放
@@ -126,13 +142,13 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: http://myq.codes/
+  url: https://github.com/myqlrs/myqlrs.github.io
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github: https://github.com/myqlrs/
+  github: https://github.com/myqlrs/myqlrs.github.io
   email: 531353101@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -380,7 +396,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/myqlrs/myqlrs.github.io.git
+  url: https://gitee.com/myqlrs/myqlrs.git
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
