@@ -1,4 +1,4 @@
-name: Sync
+name: Hexo Blog CI AND Gtee Sync
 
 on:
   push:
@@ -9,6 +9,41 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 检查它到您的工作流程可以访问它
+      # from: https://github.com/actions/checkout
+      - name: Checkout Repository master branch
+        uses: actions/checkout@master
+
+      # from: https://github.com/actions/setup-node
+      - name: Setup Node.js 10.x
+        uses: actions/setup-node@master
+        with:
+          node-version: "10.x"
+
+      - name: Setup Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
+
+      - name: Setup Deploy Private Key
+        env:
+          HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Setup Git Infomation
+        run: |
+          git config --global user.name 'myqlrs'
+          git config --global user.email '531353101@qq.com'
+      - name: Deploy Hexo
+        run: |
+          hexo clean
+          hexo generate
+          hexo deploy
+
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         env:
