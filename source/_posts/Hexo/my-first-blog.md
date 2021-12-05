@@ -13,7 +13,7 @@ categories: Markdown
 tags:
   - hexo
 keywords:
-  - 第一
+  - Hexo使用说明
   - first
 ---
 
@@ -30,12 +30,12 @@ $ hexo d -g #生成静态博客并推送到Git远程仓库
 $ hexo s -g #生成静态博客并启动本地预览
 ```
 每次我们添加或修改完本地文件后，使用：
-
 ```bash
 hexo clean && hexo g -d
 ```
 
-即可重新生成项目文件，并推送到 github 项目的 gh-pages 分支，为了备份数据，也方便我们在不同设备上进行编辑，最好将我们修改的文件推送到 master 分支进行保存：
+即可重新生成项目文件，并推送到 github 项目的 gh-pages 分支，
+为了备份数据，也方便我们在不同设备上进行编辑，最好将我们修改的文件推送到 master 分支进行保存：
 
 ```bash
 git checkout master

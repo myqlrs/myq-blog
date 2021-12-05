@@ -104,7 +104,8 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repo: git@gitee.com:myqlrs/myqlrs.git
+#  repo: git@gitee.com:myqlrs/myqlrs.git
+  repo: git@gitee.com:myqlrs/myq-blog.git
   branch: gh-pages
 
 search:
