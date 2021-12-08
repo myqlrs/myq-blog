@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>myqlrs</title>
+  
+  
+  <link href="https://myqlrs.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://myqlrs.gitee.io/"/>
+  <updated>2021-12-08T13:34:29.725Z</updated>
+  <id>https://myqlrs.gitee.io/</id>
+  
+  <author>
+    <name>myqlrs</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot 注解原理，自动装配原理</title>
+    <link href="https://myqlrs.gitee.io/2021/12/08/spring-boot-zhu-jie-yuan-li-zi-dong-zhuang-pei-yuan-li/"/>
+    <id>https://myqlrs.gitee.io/2021/12/08/spring-boot-zhu-jie-yuan-li-zi-dong-zhuang-pei-yuan-li/</id>
+    <published>2021-12-08T21:27:05.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;首先，先看SpringBoot的主配置类：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-Spring Boot" scheme="https://myqlrs.gitee.io/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring Boot 切面AOP实现权限校验</title>
+    <link href="https://myqlrs.gitee.io/2021/12/08/spring-boot-qie-mian-aop-shi-xian-quan-xian-xiao-yan/"/>
+    <id>https://myqlrs.gitee.io/2021/12/08/spring-boot-qie-mian-aop-shi-xian-quan-xian-xiao-yan/</id>
+    <published>2021-12-08T21:21:26.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-理解AOP&quot;&gt;&lt;a href=&quot;#1-理解AOP&quot; class=&quot;headerlink&quot; title=&quot;1 理解AOP&quot;&gt;&lt;/a&gt;1 理解AOP&lt;/h1&gt;&lt;h2 id=&quot;1-1-什么是AOP&quot;&gt;&lt;a href=&quot;#1-1-什么是AOP&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-Spring Boot" scheme="https://myqlrs.gitee.io/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Session、Token、Jwt、Oauth2</title>
+    <link href="https://myqlrs.gitee.io/2021/12/08/session-token-jwt-oauth2/"/>
+    <id>https://myqlrs.gitee.io/2021/12/08/session-token-jwt-oauth2/</id>
+    <published>2021-12-08T21:15:32.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;认证 Authentication&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;百度百科中对于认证的解释是：身份验证（Authentication），在 .NET Framework</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-Jwt -Session -Token -Oauth2" scheme="https://myqlrs.gitee.io/tags/Jwt-Session-Token-Oauth2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openlayers</title>
+    <link href="https://myqlrs.gitee.io/2021/12/08/openlayers/"/>
+    <id>https://myqlrs.gitee.io/2021/12/08/openlayers/</id>
+    <published>2021-12-08T20:27:58.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>11个好看的按钮样式</title>
+    <link href="https://myqlrs.gitee.io/2021/12/05/html-css-javascript/11-ge-hao-kan-de-an-niu-yang-shi/"/>
+    <id>https://myqlrs.gitee.io/2021/12/05/html-css-javascript/11-ge-hao-kan-de-an-niu-yang-shi/</id>
+    <published>2021-12-05T18:10:40.000Z</published>
+    <updated>2021-12-08T13:34:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;按钮预览&quot;&gt;&lt;a href=&quot;#按钮预览&quot; class=&quot;headerlink&quot; title=&quot;按钮预览&quot;&gt;&lt;/a&gt;按钮预览&lt;/h1&gt;&lt;style type=&quot;text/css&quot;&gt;
+.buttons {
+    margin: 10%;
+   </summary>
+        
+      
+    
+    
+    
+    <category term="Html" scheme="https://myqlrs.gitee.io/categories/Html/"/>
+    
+    
+    <category term="Html" scheme="https://myqlrs.gitee.io/tags/Html/"/>
+    
+    <category term="CSS" scheme="https://myqlrs.gitee.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux命令</title>
+    <link href="https://myqlrs.gitee.io/2021/05/24/linux-ming-ling/"/>
+    <id>https://myqlrs.gitee.io/2021/05/24/linux-ming-ling/</id>
+    <published>2021-05-24T13:55:06.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Linux命令&quot;&gt;&lt;a href=&quot;#Linux命令&quot; class=&quot;headerlink&quot; title=&quot;Linux命令&quot;&gt;&lt;/a&gt;Linux命令&lt;/h1&gt;&lt;h2 id=&quot;查看Linux系统信息&quot;&gt;&lt;a href=&quot;#查看Linux系统信息&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SQL</title>
+    <link href="https://myqlrs.gitee.io/2021/04/24/mysql/sql/"/>
+    <id>https://myqlrs.gitee.io/2021/04/24/mysql/sql/</id>
+    <published>2021-04-24T13:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SQL&quot;&gt;&lt;a href=&quot;#SQL&quot; class=&quot;headerlink&quot; title=&quot;SQL&quot;&gt;&lt;/a&gt;SQL&lt;/h1&gt;&lt;h2 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="https://myqlrs.gitee.io/categories/SQL/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="SQL" scheme="https://myqlrs.gitee.io/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb练习</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/zong-he-lian-xi-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/zong-he-lian-xi-bi-ji/</id>
+    <published>2021-01-10T16:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 综合练习
+    1. 简单功能
+        1. 列表查询
+        2. 登录
+   </summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://myqlrs.gitee.io/categories/Java/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="JavaWeb练习" scheme="https://myqlrs.gitee.io/tags/JavaWeb%E7%BB%83%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/redis-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/redis-bi-ji/</id>
+    <published>2021-01-10T15:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. redis
+    1. 概念
+    2. 下载安装
+    3. 命令操作
+        1.</summary>
+        
+      
+    
+    
+    
+    <category term="Redis" scheme="https://myqlrs.gitee.io/categories/Redis/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Redis" scheme="https://myqlrs.gitee.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Filter&amp;Listener</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/filter-listener-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/filter-listener-bi-ji/</id>
+    <published>2021-01-10T14:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. Filter：过滤器
+2. Listener：监听器&lt;/code&gt;&lt;/pre&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Filter&amp;Listener" scheme="https://myqlrs.gitee.io/categories/Filter-Listener/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Filter&amp;Listener" scheme="https://myqlrs.gitee.io/tags/Filter-Listener/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>EL&amp;JSTL表达式</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/el-jstl-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/el-jstl-bi-ji/</id>
+    <published>2021-01-10T13:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. JSP:
+    1. 指令
+    2. 注释
+    3. 内置对象
+
+2.</summary>
+        
+      
+    
+    
+    
+    <category term="EL&amp;JSTL" scheme="https://myqlrs.gitee.io/categories/EL-JSTL/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="EL&amp;JSTL" scheme="https://myqlrs.gitee.io/tags/EL-JSTL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cookie&amp;Session</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/cookie-session-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/cookie-session-bi-ji/</id>
+    <published>2021-01-10T12:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 会话技术
+    1. Cookie
+    2. Session
+2.</summary>
+        
+      
+    
+    
+    
+    <category term="Cookie" scheme="https://myqlrs.gitee.io/categories/Cookie/"/>
+    
+    <category term="Session" scheme="https://myqlrs.gitee.io/categories/Cookie/Session/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Cookie" scheme="https://myqlrs.gitee.io/tags/Cookie/"/>
+    
+    <category term="Session" scheme="https://myqlrs.gitee.io/tags/Session/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat&amp;Servlet</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/tomcat-servlet-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/tomcat-servlet-bi-ji/</id>
+    <published>2021-01-10T11:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. web相关概念回顾
+2. web服务器软件：Tomcat
+3.</summary>
+        
+      
+    
+    
+    
+    <category term="Tomcat" scheme="https://myqlrs.gitee.io/categories/Tomcat/"/>
+    
+    <category term="Servlet" scheme="https://myqlrs.gitee.io/categories/Tomcat/Servlet/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Servlet" scheme="https://myqlrs.gitee.io/tags/Servlet/"/>
+    
+    <category term="Tomcat" scheme="https://myqlrs.gitee.io/tags/Tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Servlet&amp;HTTP&amp;Request</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/servlet-http-request-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/servlet-http-request-bi-ji/</id>
+    <published>2021-01-10T10:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. Servlet
+2. HTTP协议
+3. Request&lt;/code&gt;&lt;/pre&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Servlet" scheme="https://myqlrs.gitee.io/categories/Servlet/"/>
+    
+    <category term="HTTP" scheme="https://myqlrs.gitee.io/categories/Servlet/HTTP/"/>
+    
+    <category term="Request" scheme="https://myqlrs.gitee.io/categories/Servlet/HTTP/Request/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Servlet" scheme="https://myqlrs.gitee.io/tags/Servlet/"/>
+    
+    <category term="HTTP" scheme="https://myqlrs.gitee.io/tags/HTTP/"/>
+    
+    <category term="Request" scheme="https://myqlrs.gitee.io/tags/Request/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Response</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/response-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/response-bi-ji/</id>
+    <published>2021-01-10T09:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. HTTP协议：响应消息
+2. Response对象
+3.</summary>
+        
+      
+    
+    
+    
+    <category term="Response" scheme="https://myqlrs.gitee.io/categories/Response/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Response" scheme="https://myqlrs.gitee.io/tags/Response/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xml</title>
+    <link href="https://myqlrs.gitee.io/2021/01/10/javaweb/xml-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/10/javaweb/xml-bi-ji/</id>
+    <published>2021-01-10T08:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. XML
+    1. 概念
+    2. 语法
+    3. 解析&lt;/code&gt;&lt;/pre&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Xml" scheme="https://myqlrs.gitee.io/categories/Xml/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Xml" scheme="https://myqlrs.gitee.io/tags/Xml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Api</title>
+    <link href="https://myqlrs.gitee.io/2021/01/09/api/"/>
+    <id>https://myqlrs.gitee.io/2021/01/09/api/</id>
+    <published>2021-01-09T19:26:55.000Z</published>
+    <updated>2021-12-08T13:34:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Api&quot;&gt;&lt;a href=&quot;#Api&quot; class=&quot;headerlink&quot; title=&quot;Api&quot;&gt;&lt;/a&gt;Api&lt;/h2&gt;&lt;h3 id=&quot;今日诗词&quot;&gt;&lt;a href=&quot;#今日诗词&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="api" scheme="https://myqlrs.gitee.io/tags/api/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax&amp;Json</title>
+    <link href="https://myqlrs.gitee.io/2021/01/09/html-css-javascript/ajax-json-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/09/html-css-javascript/ajax-json-bi-ji/</id>
+    <published>2021-01-09T15:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. AJAX：
+2. JSON&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;AJAX：&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Ajax" scheme="https://myqlrs.gitee.io/categories/Ajax/"/>
+    
+    <category term="Json" scheme="https://myqlrs.gitee.io/categories/Ajax/Json/"/>
+    
+    
+    <category term="Ajax" scheme="https://myqlrs.gitee.io/tags/Ajax/"/>
+    
+    <category term="Json" scheme="https://myqlrs.gitee.io/tags/Json/"/>
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JQuery高级</title>
+    <link href="https://myqlrs.gitee.io/2021/01/09/html-css-javascript/jquery-gao-ji-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/09/html-css-javascript/jquery-gao-ji-bi-ji/</id>
+    <published>2021-01-09T14:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今日内容：&quot;&gt;&lt;a href=&quot;#今日内容：&quot; class=&quot;headerlink&quot; title=&quot;今日内容：&quot;&gt;&lt;/a&gt;今日内容：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. JQuery 高级
+    1. 动画
+    2. 遍历
+    3. 事件绑定
+   </summary>
+        
+      
+    
+    
+    
+    <category term="JQuery" scheme="https://myqlrs.gitee.io/categories/JQuery/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="JQuery" scheme="https://myqlrs.gitee.io/tags/JQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JQuery基础</title>
+    <link href="https://myqlrs.gitee.io/2021/01/09/html-css-javascript/jquery-ji-chu-bi-ji/"/>
+    <id>https://myqlrs.gitee.io/2021/01/09/html-css-javascript/jquery-ji-chu-bi-ji/</id>
+    <published>2021-01-09T13:10:25.000Z</published>
+    <updated>2021-12-08T13:34:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今日内容&quot;&gt;&lt;a href=&quot;#今日内容&quot; class=&quot;headerlink&quot; title=&quot;今日内容&quot;&gt;&lt;/a&gt;今日内容&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. JQuery 基础：
+    1. 概念
+    2. 快速入门
+    3.</summary>
+        
+      
+    
+    
+    
+    <category term="JQuery" scheme="https://myqlrs.gitee.io/categories/JQuery/"/>
+    
+    
+    <category term="笔记" scheme="https://myqlrs.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="JQuery" scheme="https://myqlrs.gitee.io/tags/JQuery/"/>
+    
+  </entry>
+  
+</feed>
