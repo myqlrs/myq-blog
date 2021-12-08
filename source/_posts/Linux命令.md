@@ -27,7 +27,7 @@ lsusb -tv   #显示USB设备
 
 ## date显示系统日期
 
-```
+```bash
 cal 2007              #显示2007年的日历表
 date 041217002007.00   #设置日期和时间 - 月日时分年.秒
 clock -w              #将时间修改保存到 BIOS
@@ -35,7 +35,7 @@ clock -w              #将时间修改保存到 BIOS
 
 ## 关机（关机，重启，登出）
 
-```
+```bash
 shutdown -h now    #关闭系统(1)
 init 0            #关闭系统(2)
 telinit 0         #关闭系统(3)
@@ -48,7 +48,7 @@ logout   #注销
 
 ## 文件和目录
 
-```
+```bash
 cd /home    #进入 '/ home' 目录'
 cd ..       #返回上一级目录
 cd ../..    #返回上两级目录
@@ -93,7 +93,7 @@ find . -maxdepth 1 -name *.jpg -print -exec convert "{}" -resize 80x60 "thumbs/{
 
 ## 文件搜索
 
-```
+```bash
 find / -name file1     #从 '/' 开始进入根文件系统搜索文件和目录
 find / -user user1     #搜索属于用户 'user1' 的文件和目录
 find /home/user1 -name \*.bin        #在目录 '/ home/user1' 中搜索带有'.bin' 结尾的文件
@@ -108,7 +108,7 @@ which halt         #显示一个二进制文件或可执行文件的完整路径
 
 ## 挂载文件系统
 
-```
+```bash
 mount /dev/hda2 /mnt/hda2    #挂载一个叫做hda2的盘 - 确定目录 '/ mnt/hda2' 已经存在
 umount /dev/hda2            #卸载一个叫做hda2的盘 - 先从挂载点 '/ mnt/hda2' 退出
 fuser -km /mnt/hda2         #当设备繁忙时强制卸载
@@ -125,7 +125,7 @@ mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share      
 
 ## 磁盘空间相关
 
-```
+```bash
 df -h           #显示已经挂载的分区列表
 ls -lSr |more    #以尺寸大小排列文件和目录
 du -sh dir1      #估算目录 'dir1' 已经使用的磁盘空间'
@@ -138,7 +138,7 @@ dpkg-query -W -f='${Installed-Size;10}t${Package}n' | sort -k1,1n
 
 ## 用户和群组
 
-```
+```bash
 groupadd group_name   #创建一个新用户组
 groupdel group_name   #删除一个用户组
 groupmod -n new_group_name old_group_name   #重命名一个用户组
@@ -157,7 +157,7 @@ newgrp group_name     #登陆进一个新的群组以改变新创建文件的预
 
 ## 文件权限
 
-```
+```bash
 使用 "+" 设置权限，使用 "-" 用于取消
 
 ls -lh    #显示权限
@@ -179,7 +179,7 @@ chmod o-t /home/public      #禁用一个目录的 STIKY 位
 
 ## 文件的特殊属性
 
-```
+```bash
 - 使用 "+" 设置权限，使用 "-" 用于取消
 
 chattr +a file1   #只允许以追加方式读写文件
@@ -194,7 +194,7 @@ lsattr           #显示特殊的属性
 
 ## 打包和压缩文件
 
-```
+```bash
 bunzip2 file1.bz2   #解压一个叫做 'file1.bz2'的文件
 bzip2 file1         #压缩一个叫做 'file1' 的文件
 gunzip file1.gz     #解压一个叫做 'file1.gz'的文件
@@ -223,7 +223,7 @@ unzip file1.zip    #解压一个zip格式压缩包
 
 ## RPM包（Fedora，Redhat及类似系统）
 
-```
+```bash
 rpm -ivh package.rpm    #安装一个rpm包
 rpm -ivh --nodeeps package.rpm   #安装一个rpm包而忽略依赖关系警告
 rpm -U package.rpm        #更新一个rpm包但不改变其配置文件
@@ -254,7 +254,7 @@ rpmbuild --rebuild package_name.src.rpm       #从一个rpm源码构建一个 rp
 
 ## YUM（Fedora，RedHat及类似系统）
 
-```
+```bash
 yum install package_name             #下载并安装一个rpm包
 yum localinstall package_name.rpm    #将安装一个rpm包，使用你自己的软件仓库为你解决所有依赖关系
 yum update package_name.rpm    #更新当前系统中所有安装的rpm包
@@ -269,7 +269,7 @@ yum clean all                #删除所有缓存的包和头文件
 
 ## DEB包（Debian，Ubuntu及类似系统）
 
-```
+```bash
 dpkg -i package.deb     #安装/更新一个 deb 包
 dpkg -r package_name    #从系统删除一个 deb 包
 dpkg -l                 #显示系统中所有已经安装的 deb 包
@@ -282,7 +282,7 @@ dpkg -S /bin/ping              #确认所给的文件由哪个deb包提供
 
 ## APT软件工具（Debian，Ubuntu及类似系统）
 
-```
+```bash
 apt-get install package_name      #安装/更新一个 deb 包
 apt-cdrom install package_name    #从光盘安装/更新一个 deb 包
 apt-get update      #升级列表中的软件包
@@ -295,7 +295,7 @@ apt-cache search searched-package    #返回包含所要搜索字符串的软件
 
 ## 查看文件内容
 
-```
+```bash
 cat file1      #从第一个字节开始正向查看文件的内容
 tac file1      #从最后一行开始反向查看一个文件的内容
 more file1     #查看一个长文件的内容
@@ -307,7 +307,7 @@ tail -f /var/log/messages     #实时查看被添加到一个文件中的内容
 
 ## 文字处理
 
-```
+```bash
 cat file1 file2 ... | command <> file1_in.txt_or_file1_out.txt general syntax for text manipulation using PIPE, STDIN and STDOUT
 
 cat file1 | command( sed, grep, awk, grep, etc...) > result.txt 
@@ -353,7 +353,7 @@ comm -3 file1 file2    #比较两个文件的内容只删除两个文件共有�
 
 ## 字符设置和文件格式转换
 
-```
+```bash
 dos2unix filedos.txt fileunix.txt      #将一个文本文件的格式从MSDOS转换成UNIX
 unix2dos fileunix.txt filedos.txt      #将一个文本文件的格式从UNIX转换成MSDOS
 recode ..HTML < page.txt > page.html   #将一个文本文件转换成html
@@ -362,7 +362,7 @@ recode -l | more                       #显示所有允许的转换格式
 
 ## 文件系统分析
 
-```
+```bash
 badblocks -v /dev/hda1    #检查磁盘hda1上的坏磁块
 fsck /dev/hda1            #修复/检查hda1磁盘上linux文件系统的完整性
 fsck.ext2 /dev/hda1       #修复/检查hda1磁盘上ext2文件系统的完整性
@@ -376,7 +376,7 @@ dosfsck /dev/hda1         #修复/检查hda1磁盘上dos文件系统的完整性
 
 ## 初始化一个文件系统
 
-```
+```bash
 mkfs /dev/hda1        #在hda1分区创建一个文件系统
 mke2fs /dev/hda1      #在hda1分区创建一个linux ext2的文件系统
 mke2fs -j /dev/hda1   #在hda1分区创建一个linux ext3(日志型)的文件系统
@@ -387,7 +387,7 @@ mkswap /dev/hda3               #创建一个swap文件系统
 
 ## SWAP文件系统
 
-```
+```bash
 mkswap /dev/hda3             #创建一个swap文件系统
 swapon /dev/hda3             #启用一个新的swap文件系统
 swapon /dev/hda2 /dev/hdb3   #启用两个swap分区
@@ -395,7 +395,7 @@ swapon /dev/hda2 /dev/hdb3   #启用两个swap分区
 
 ## 备份
 
-```
+```bash
 dump -0aj -f /tmp/home0.bak /home    #制作一个 '/home' 目录的完整备份
 dump -1aj -f /tmp/home0.bak /home    #制作一个 '/home' 目录的交互式备份
 restore -if /tmp/home0.bak          #还原一个交互式备份
@@ -431,7 +431,7 @@ dd if=/dev/fd0 of=/dev/hda bs=512 count=1
 
 ## 光盘
 
-```
+```bash
 cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force 
 #清空一个可复写的光盘内容
 
@@ -451,7 +451,7 @@ dd if=/dev/hdc | md5sum    #校验一个设备的md5sum编码，例如一张 CD
 
 ## 网络-（以太网和WIFI无线）
 
-```
+```bash
 ifconfig eth0    #显示一个以太网卡的配置
 ifup eth0        #启用一个 'eth0' 网络设备
 ifdown eth0      #禁用一个 'eth0' 网络设备
