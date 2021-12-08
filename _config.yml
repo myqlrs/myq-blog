@@ -13,8 +13,8 @@ timezone: ""
 
 # URL
 ## 如果您的网站位于子目录中，则将url设置为“ http://example.com/child”，将根目录设置为“ / child /”
-url: http://13.90.80.54
-root: /
+url: https://myqlrs.gitee.io
+root: /myq-blog/
 # permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,8 +104,8 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repo: git@13.90.80.54:/var/repo/hexoBlog.git #这个裸库单纯用来连接
-  branch: master
+  repo: git@github.com:myqlrs/myq-blog.git
+  branch: gh-pages
 
 search:
   path: search.xml
